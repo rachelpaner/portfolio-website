@@ -1,4 +1,86 @@
+body {
+    background-color:  #FFF5F4;
+   
+}
+
+
+html,body{
+    overflow-x: hidden;
+}
+
+button {
+    border-radius: 30px !important; 
+    font-family: 'Raleway';
+    
+}
+
+.btn-primary {
+    color: white!important;
+    background-color:#EA7197;
+    border-color: #EA7197 !important;
+    border-style: solid;
+    
+}
+.btn-primary:hover{
+    color:  #4D4646 !important;
+    background-color:#f9b9cd;
+    
+}
+p {
+    font-family: 'Raleway';
+    color: #4D4646;
+    size: 1.5rem;
+
+
+}
+h1 {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    color:  #FFF5F4;
+    font-size: 11.75rem;;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-size: 3.75rem;
+    text-decoration: underline;
+    text-decoration-thickness: .2rem;
+    font-weight: 600;
+    color: #EA7197;
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+
+h3 {
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    color:  #FFF5F4 ;
+    font-size: 4rem;
+}
+
+h4 {
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    color:   #4D4646;
+    font-size: 3rem;
+}
+
+
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+
+.greeting {
+   text-align:center;
+   filter:drop-shadow(.5rem .5rem 1rem  rgba(244, 229, 228, 0.4));
+}
 .navbar {
+    padding-top: 2rem;
     padding-bottom: 4.5rem;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -10,6 +92,7 @@
 
 .nav-link {
     font-family: 'Raleway';
+    font-size: 1.5rem;
     color:  #FFF5F4 !important;   
 }
 
@@ -18,19 +101,126 @@
     height:auto;
 }
 
-.splash {
-    /* height: 53.125rem;
-	color: white; */
-	/* flex-direction: column;  */
-	/* background-color: #FFF5F4; */
-	/* padding-left: 5%; 
-	padding-right: 10%;  */
-	/* background-size: 112.5rem, 56.25rem; */
-    background-image:url('images/bg.jpg') !important;
-    background-size: 100vh;
+.header {
+    font-style: italic;
 }
 
-.bg-image {
-    background-image: url('images/Logo.png');
-    height: 100vh;
+#graphicDesign {
+    padding-top: 5%;
+}
+
+.splash {
+    /* height: 100vh; */
+	background-color: black;
+	width: 100%;
+    background-position: center;
+    min-height: 64rem;
+    max-height:67.5rem;
+    background-image:url('../images/flower-bg.png') ;
+    background-size: cover;
+	
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+.project-image-left {
+    width: 60%;
+    float: right;
+    /* padding-right: 5%; */
+}
+.image-holder {
+    /* margin-left: 10%; */
+    /* margin-right:2.5%; */
+}
+
+.preview-card {
+    margin-top: 5%;
+}
+
+.project-des-right {
+    float: right;
+    padding-left: 15%;
+    padding-right: 50%;
+    padding-top: 12%;
+}
+
+.work-title {
+    padding-bottom: 10%;
+}
+
+.project-des-left {
+    float: left;
+    padding-right: 20%;
+    padding-left: 40%;
+    padding-top: 12%;
+}
+
+.project-image-right {
+    width: 60%;
+    float: left;
+    /* padding-right: 5%; */
+}
+
+@media (max-width: 1028px) {
+    h1 {
+        font-size: 7rem;
+    }
+   h2 {
+    font-size: 2.5rem;
+   }
+
+   .header {
+    padding-top: 10%;
+   }
+
+   .project-image-left {
+    float: none;
+    display: block;
+    PADDING-TOP: 10%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .project-des-right {
+    float: none;
+    display: block;
+    padding:0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    }
+
+    .project-image-right {
+        float: none;
+        display: block;
+        PADDING-TOP: 10%;
+        margin-left: auto;
+        margin-right: auto;
+       }
+       .project-des-left {
+        float: none;
+        display: block;
+        padding:0%;
+        margin-left: 15%;
+        margin-right: 15%;
+        }
+
+    .work-title {
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    button {
+        display: block;
+        padding:0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

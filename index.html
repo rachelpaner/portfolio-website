@@ -8,8 +8,13 @@
 		href="images/favicon-red.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
 
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="hover.css">
@@ -22,7 +27,8 @@
 </head>
  <!-- Navbar -->
  <body>
-    <!-- <nav class="navbar navbar-expand-lg ">
+    <div  class="container-fluid splash">
+    <nav class="navbar navbar-expand-lg ">
         <a class="navbar-brand" href="#"> <img id="navbarLogo" src="images/Logo.png" ></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -41,18 +47,121 @@
             <li class="navbar-item">
             <a href='#footer' class="nav-link">Contact</a>
             </li>
-        </ul> -->
+        </ul>
+        </div>
+    </nav>
+        <div class="greeting" class="center">
+            <h1>hi, i'm</h1>
+            <h1>rachel!</h1>
+            <h3>designer & dreamer</h3>
+        </div>
+    </div>
+    <div id="work">
+        <h2 class="header">
+			ui/ux design
+		</h2>
+        <div class=" reveal preview-card row"> 
+            <div class="col-sm-6 image-holder">
 
-    
-    <div class="splash">
-        <div class="bg-image">
-            
+                <img onClick="self.location='pages/evolve.html'" class="project-image-left"  src="images/evolve_flower.png">
+            </div>
+            <div class="col-sm-6">
+                <div class="project-des-right">
+                    <h4 class="work-title">EVolve</h4>
+                    <p class="work-des">An app designed to help prospective electric vehicle buyers connect with
+                        current EV owners and be more prepared mentally and
+                        financially to transition from gas vehicles. </p>
+                    <br>
+                    <div class="hvr-grow">
+                    <button type="button" class="btn-lg btn-primary" onClick="self.location='pages/evolve.html'">view case study</button>
+                    </div>
+                </div>
+            </div>     
         </div>
 
-        <h3 id="hello">Hello, I'm</h3>
-		<h1 id="bigname">RACHEL PANER</h1>
-		<h3 id="dd">designer & dreamer</h3>
+        <div class="reveal preview-card row"> 
+
+            <div class="col-sm-6 order-first order-md-2 image-holder">
+                <img onClick="self.location='pages/evolve.html'" class="project-image-right"  src="images/debatetable_flower.png">
+            </div>   
+  
+            <div class="col-sm-6 ">
+                <div class="project-des-left">
+                    <h4 class="work-title">DebateTable</h4>
+                    <p>
+                        A social debating platform that encourages the spread of
+                        more diverse viewpoints through text and video-based
+                        debates, community-sourced prompts, and data visualizations
+                        of changes in opinions over time.
+                    </p>
+                    <br>
+                    <div class="hvr-grow">
+                    <button type="button" class="btn-lg btn-primary" onClick="self.location='pages/evolve.html'">view case study</button>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="reveal preview-card row"> 
+            <div class="col-sm-6 image-holder">
+
+                <img onClick="self.location='pages/evolve.html'" class="project-image-left"  src="images/cki_flower.png">
+            </div>
+            <div class="col-sm-6">
+                <div class="project-des-right">
+                    <h4 class="work-title">UCSD CKI
+                        website
+                        redesign</h4>
+                    <p>
+                        Redesigning the website on desktop and mobile
+                        to improve readability,
+                        navigation, visuals, and translation of desktop interface
+                        to mobile interface for UCSD Circle K International,
+                        a campus volunteer service organization.
+                    </p>
+                    <br>
+                    <div class="hvr-grow">
+                    <button type="button" class="btn-lg btn-primary" onClick="self.location='pages/evolve.html'">view case study</button>
+                    </div>
+                </div>
+            </div>     
+        </div>
+
+        <h2 id="graphicDesign" class="header">
+			graphic design
+		</h2>
+
+        <div class="reveal preview-card row"> 
+
+            <div class="col-sm-6 order-first order-md-2 image-holder">
+                <img onClick="self.location='pages/evolve.html'" class="project-image-right"  src="images/poster_flower.png">
+            </div>   
+  
+            <div class="col-sm-6 ">
+                <div class="project-des-left">
+                    <h4 class="work-title">Artist Statement Poster Set</h4>
+                    <p>
+                        An iterative set of denotative, connotative,
+					    and exhibition posters that reflect my
+					    personal creative influences in design.
+                    </p>
+                    <br>
+                    <div class="hvr-grow">
+                    <button type="button" class="btn-lg btn-primary" onClick="self.location='pages/evolve.html'">view project</button>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+
+
+      
+      
+
+
     </div>
+
+
    
 
 
@@ -62,6 +171,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
