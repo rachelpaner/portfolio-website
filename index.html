@@ -17,18 +17,18 @@
     />
 
 	<link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fade.css">
+    <link rel="stylesheet" href="test/firefly.pug">
 	<link rel="stylesheet" href="hover.css">
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	
 
 	<script src="https://kit.fontawesome.com/1638ad5f6b.js" crossorigin="anonymous"></script>
 </head>
  <!-- Navbar -->
  <body>
     <div  class="container-fluid splash">
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-light navbar-expand-lg ">
         <a class="navbar-brand" href="#"> <img id="navbarLogo" src="images/Logo.png" ></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,13 +36,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="navbar-item">
-                <a href='#pricing' class="nav-link">Work</a>
+                <a href='#work' class="nav-link">Work</a>
             </li>
             <li class="navbar-item">
-                <a href='#pricing' class="nav-link">About</a>
+                <a href='pages/about.html' class="nav-link">About</a>
             </li>
             <li class="navbar-item">
-                <a href='#' class="nav-link">Resume</a>
+                <a href='pages/resume.html' class="nav-link">Resume</a>
             </li>
             <li class="navbar-item">
             <a href='#footer' class="nav-link">Contact</a>
@@ -55,6 +55,32 @@
             <h1>rachel!</h1>
             <h3>designer & dreamer</h3>
         </div>
+        <div class="fade-blurb">
+        <h5>
+            <span>I'm</span>
+            <span>a</span>
+            <span>UI/UX</span>
+            <span>designer</span>
+            <span>at</span>
+            <span>UC</span>
+            <span>San</span>
+            <span>Diego</span>
+            <span>that</span>
+            <span>combines</span>
+        </h5>
+        <h5>
+            <span>functionality</span>
+            <span>with</span>
+            <span>imagination</span>
+            <span>to</span>
+            <span>tell</span>
+            <span>users</span>
+            <span>compelling</span>
+            <span>stories</span>
+            <span>:)</span>
+          </h5>
+        </div>
+      
     </div>
     <div id="work">
         <h2 class="header">
@@ -82,7 +108,7 @@
         <div class="reveal preview-card row"> 
 
             <div class="col-sm-6 order-first order-md-2 image-holder">
-                <img onClick="self.location='pages/evolve.html'" class="project-image-right"  src="images/debatetable_flower.png">
+                <img onClick="window.open('https://debatetable.wixsite.com/portfolio', '_blank')" class="hvr-float-shadow project-image-right" src="images/debatetable_flower.png" alt="DebateTable login and homepage prototype screens">
             </div>   
   
             <div class="col-sm-6 ">
@@ -121,7 +147,7 @@
                     </p>
                     <br>
                     <div class="hvr-grow">
-                    <button type="button" class="btn-lg btn-primary" onClick="self.location='pages/evolve.html'">view case study</button>
+                    <button type="button" class="btn-lg btn-primary" onClick="self.location='pages/cki.html'">view case study</button>
                     </div>
                 </div>
             </div>     
@@ -170,7 +196,9 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script  src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 

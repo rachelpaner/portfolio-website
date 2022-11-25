@@ -67,6 +67,12 @@ h4 {
     font-size: 3rem;
 }
 
+h5 {
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    color:#FFF5F4 ; 
+}
+
 
 /* .center {
     display: block;
@@ -77,11 +83,15 @@ h4 {
 
 .greeting {
    text-align:center;
-   filter:drop-shadow(.5rem .5rem 1rem  rgba(244, 229, 228, 0.4));
+   filter:drop-shadow(.5rem .5rem 1rem  rgba(255, 236, 236, 0.4));
+}
+
+.fade-blurb {
+    padding-top: 3rem;
 }
 .navbar {
     padding-top: 2rem;
-    padding-bottom: 4.5rem;
+    padding-bottom: 1rem;
     padding-left: 4rem;
     padding-right: 4rem;
 }
@@ -94,6 +104,11 @@ h4 {
     font-family: 'Raleway';
     font-size: 1.5rem;
     color:  #FFF5F4 !important;   
+}
+
+.navbar-light .navbar-toggler {
+    color: #FFF5F4 !important;
+    border-color:  #FFF5F4 !important;
 }
 
 #navbarLogo {
@@ -110,13 +125,13 @@ h4 {
 }
 
 .splash {
-    /* height: 100vh; */
+    height: 100vh;
 	background-color: black;
 	width: 100%;
     background-position: center;
-    min-height: 64rem;
-    max-height:67.5rem;
-    background-image:url('../images/flower-bg.png') ;
+    /* min-height: 60rem;
+    max-height:67.5rem; */
+    background-image:url('../images/animated-bg.gif') ;
     background-size: cover;
 	
 }
@@ -133,7 +148,7 @@ h4 {
   }
 
 .project-image-left {
-    width: 60%;
+    width: 70%;
     float: right;
     /* padding-right: 5%; */
 }
@@ -149,7 +164,7 @@ h4 {
 .project-des-right {
     float: right;
     padding-left: 15%;
-    padding-right: 50%;
+    padding-right: 40%;
     padding-top: 12%;
 }
 
@@ -160,12 +175,12 @@ h4 {
 .project-des-left {
     float: left;
     padding-right: 20%;
-    padding-left: 40%;
+    padding-left: 30%;
     padding-top: 12%;
 }
 
 .project-image-right {
-    width: 60%;
+    width: 70%;
     float: left;
     /* padding-right: 5%; */
 }
