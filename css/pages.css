@@ -1,0 +1,10 @@
+.nav-link {
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    color:  #4D4646 !important;   
+}
+
+.navbar-light .navbar-toggler {
+    color:#4D4646 !important;
+    border-color: #4D4646 !important;
+}
