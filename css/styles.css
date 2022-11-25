@@ -14,18 +14,24 @@ button {
     
 }
 
-.btn-primary {
+.btn-lg {
     color: white!important;
     background-color:#EA7197;
     border-color: #EA7197 !important;
     border-style: solid;
     
 }
-.btn-primary:hover{
+.btn-lg:hover{
     color:  #4D4646 !important;
     background-color:#f9b9cd;
     
 }
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
 p {
     font-family: 'Raleway';
     color: #4D4646;
@@ -185,6 +191,9 @@ h5 {
     /* padding-right: 5%; */
 }
 
+.arrow {
+    padding-left: 3px;
+}
 @media (max-width: 1028px) {
     h1 {
         font-size: 7rem;
