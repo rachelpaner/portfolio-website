@@ -1,5 +1,5 @@
 body {
-    background-color:  #FFF5F4;
+    background-color: #FFF8FB;
    
 }
 
@@ -16,13 +16,13 @@ button {
 
 .btn-lg {
     color: white!important;
-    background-color:#EA7197;
-    border-color: #EA7197 !important;
+    background-color: #E2508A;
+    border-color:  #E2508A!important;
     border-style: solid;
     
 }
 .btn-lg:hover{
-    color:  #4D4646 !important;
+    color:  #433C4A !important;
     background-color:#f9b9cd;
     
 }
@@ -34,7 +34,7 @@ button {
 
 p {
     font-family: 'Raleway';
-    color: #4D4646;
+    color: #433C4A;
     size: 1.5rem;
 
 
@@ -42,7 +42,7 @@ p {
 h1 {
     font-family: 'Playfair Display';
     font-weight: 900;
-    color:  #FFF5F4;
+    color:  #FFF8FB;
     font-size: 11.75rem;;
 }
 
@@ -52,7 +52,7 @@ h2 {
     text-decoration: underline;
     text-decoration-thickness: .2rem;
     font-weight: 600;
-    color: #EA7197;
+    color: #E2508A; 
     text-align: center;
     margin-top: 2%;
 
@@ -62,7 +62,7 @@ h2 {
 h3 {
     font-family: 'Playfair Display';
     font-weight: 500;
-    color:  #FFF5F4 ;
+    color:#FFF8FB;
     font-size: 4rem;
 }
 
@@ -76,16 +76,18 @@ h4 {
 h5 {
     font-family: 'Raleway';
     font-size: 1.5rem;
-    color:#FFF5F4 ; 
+    color:#FFF8FB; 
 }
 
+.category {
+    background-color:#FAE5EF;
+}
 
-/* .center {
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-} */
+}
 
 .greeting {
    text-align:center;
@@ -109,12 +111,12 @@ h5 {
 .nav-link {
     font-family: 'Raleway';
     font-size: 1.5rem;
-    color:  #FFF5F4 !important;   
+    color:  #FFF8FB!important;   
 }
 
 .navbar-light .navbar-toggler {
-    color: #FFF5F4 !important;
-    border-color:  #FFF5F4 !important;
+    color: #FFF8FB !important;
+    border-color:  #FFF5F9 !important;
 }
 
 #navbarLogo {
@@ -127,7 +129,11 @@ h5 {
 }
 
 #graphicDesign {
-    padding-top: 5%;
+    padding-top: 2rem;
+}
+
+#UX {
+    padding-top: 2rem;
 }
 
 .splash {
@@ -158,13 +164,13 @@ h5 {
     float: right;
     /* padding-right: 5%; */
 }
-.image-holder {
-    /* margin-left: 10%; */
-    /* margin-right:2.5%; */
-}
 
 .preview-card {
     margin-top: 5%;
+}
+
+.image-holder {
+    cursor: pointer;
 }
 
 .project-des-right {
@@ -194,57 +200,131 @@ h5 {
 .arrow {
     padding-left: 3px;
 }
+
+#slideshow{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.graphic {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 8rem;
+}
+
+.poster-graphic {
+    width: 40%;
+    margin-bottom: 8rem;
+}
+
+.carousel-caption {
+    color:#433C4A !important;
+    font-family: "Raleway" !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%433C4A' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+   
+.carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%433C4A' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #FAE5EF;
+}
+
+.ending {
+    font-family: 'Playfair Display';
+    font-size: 1.75rem;
+    color:#433C4A;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.connect {
+    font-family: 'Raleway';
+    font-size: 1.25rem;
+    text-align: center;
+    color:#433C4A;
+}
+
+.curly-arrow-left, .curly-arrow-right {
+    width: 1.25rem;
+    height: auto;
+
+}
+
+.curly-arrow-left {
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.socials {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.fa-github {
+    padding-right: 3rem;
+}
+.fa-linkedin{
+    padding-left: 3rem;
+}
+
+.dd {
+    padding-top: 3rem;
+    color:#4f4f54 !important;
+}
+
+i:hover {
+    color: #E2508A;
+    cursor: pointer;
+}
 @media (max-width: 1028px) {
     h1 {
         font-size: 7rem;
     }
    h2 {
-    font-size: 2.5rem;
+        font-size: 2.5rem;
    }
 
    .header {
-    padding-top: 10%;
+        padding-top: 10%;
    }
 
-   .project-image-left {
-    float: none;
-    display: block;
-    PADDING-TOP: 10%;
-    margin-left: auto;
-    margin-right: auto;
-   }
-   .project-des-right {
-    float: none;
-    display: block;
-    padding:0%;
-    margin-left: 15%;
-    margin-right: 15%;
-    }
-
-    .project-image-right {
+   .project-image-left, .project-image-right {
         float: none;
-        display: block;
+        display: block !important;
         PADDING-TOP: 10%;
         margin-left: auto;
         margin-right: auto;
-       }
-       .project-des-left {
+   }
+   .project-des-right {
         float: none;
         display: block;
         padding:0%;
         margin-left: 15%;
         margin-right: 15%;
-        }
+    }
+
+    .project-des-left {
+        float: none;
+        display: block;
+        padding:0%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 
     .work-title {
         padding-top: 10%;
         text-align: center;
     }
 
-    button {
-        display: block;
-        padding:0%;
-        margin-left: auto;
-        margin-right: auto;
+    .btn-center {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }

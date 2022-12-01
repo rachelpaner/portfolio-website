@@ -1,0 +1,222 @@
+/* use for each of the UI/UX project subpages */
+
+h1 {
+	/* title of the page */
+	font-family: 'Playfair Display';
+	color: #433C4A;
+	font-size: 4rem; 
+	text-align: center; 
+	font-weight: 700;
+	margin-top: 20%;
+	margin-bottom:7%;
+	line-height:4rem;
+}
+
+h3 {
+	/* section titles */
+	font-family: 'Playfair Display';
+	color: #433C4A;
+	font-size: 2.5rem; 
+	font-weight: 500;
+	margin: 0;
+	line-height: 4rem;
+	padding-top: 2%;
+}
+
+ol {
+	list-style-position: inside; 
+	padding: 0; 
+}
+/* .gradient-bg{
+	background-image: linear-gradient(to right top, #f08ab5, #e58ec9, #d594db, #bf9bea, #a4a3f6, #9aa5f9, #90a8fc, #84aafe, #8ea7fd, #97a4fc, #a1a1fa, #aa9ef7);
+} */
+
+/* Style the header: fixed position (always stay at the top) */
+.progress-bar {
+    background: #E2508A ;
+    height: .5rem;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.subsection {
+	/* subsections */
+	font-family: 'Playfair Display';
+	color: #753258;
+	font-size: 2.25rem; 
+	font-weight: 6.25rem;
+	line-height:4rem;
+	padding-top: 2%;
+	
+}
+
+.project-body {
+	margin-left: 20%; 
+	margin-right: 20%; 
+
+}
+
+.big-image{
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+}
+
+.big-image img{
+	align-self: center;
+	width: 100%; 
+}
+.columns {
+	margin-bottom:1%;
+}
+.column {
+	float: left;
+	width: 33.33%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+  }
+
+  .col{
+	float:left;
+	width: 33.33%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+.img-des {
+	color: #575252;
+	font-size: 1rem; 
+	position: relative;
+	padding-bottom: 2%;
+	line-height: 1.5rem;
+}
+.project-des {
+	border: 0.3rem solid #E2508A;
+	border-radius: .75rem;
+	/* background: rgb(249, 204, 211); */
+    background-image: linear-gradient(to right top, #d8e7ff, #dce2fe, #e3ddfb, #ead7f6, #f2d1ee, #f3cdeb, #f4c8e8, #f5c4e5, #eec0eb, #e3bef2, #d5bcf8, #c4bbff);
+	margin-top:5%;
+	margin-bottom: 5%;
+}
+
+#des-header{
+	font-size:1.5rem;
+	text-decoration:underline;
+	text-decoration-color: #E2508A;
+	
+}
+
+.team-info{
+	font-size: 1.25rem;
+	font-style:italic;
+	color:#E2508A;
+
+}
+
+
+#center {  
+	text-align: center;
+} 
+
+.left {
+	text-align: left;
+}
+
+ .nav-right a {
+	color: #433C4A;
+}
+	  
+
+.nav-right a:hover {
+/* background-color: lightpink; */
+text-decoration-color:#E2508A;
+ }
+
+.sketch img {
+	width:49.5%;
+	height:auto;
+
+}
+
+.final-images img{
+	width: 80%;
+	height: auto;
+	padding-top: 2%;
+	margin-left: 11%;
+	margin-right:11%;
+}
+
+.findings {
+	border:  1rem dotted #E2508A;
+	outline-offset: 0.5rem;
+	margin-bottom: 3%;
+	
+}
+.insight {
+	padding-bottom:3%;
+	padding-left:3%;
+	padding-right: 3%;
+	font-size: 2.25rem;
+	font-family: 'Raleway';
+	color: #433C4A;
+	font-weight:300;
+}
+
+.intro-problem {
+	font-size: 1.75rem;
+	color:#433C4A;
+	font-style: 600;
+	padding-top: 2%;
+}
+
+#problem-statement {
+	padding-bottom:5%;
+	padding-left:3%;
+	padding-right: 3%;
+	padding-top: 3%;
+	font-size: 1.875rem;
+	font-family: 'Raleway';
+	color: #433C4A;
+	font-weight: 400;
+	line-height: 1.5;
+	
+} 
+
+#first {
+	padding-top:3%;
+}
+#solution {
+	font-family: 'Playfair Display';
+	font-weight:100;
+	font-size: 1.875rem;
+	color: #433C4A;
+}
+.bold {
+	font-weight: 600;
+	font-family: Raleway;
+}
+
+
+.inline-block {
+	display: inline-block;
+ }
+
+ .thank-you {
+	font-family: 'Playfair Display';
+	size: 1rem;
+	color: #433C4A;
+	margin-top:5%;
+	opacity: 75%;
+ }
+ 
+/* .reg-image{
+
+} */

@@ -13,5 +13,12 @@ function reveal() {
       }
     }
   }
+
+  function copyEmail() {
+    let text = "rachelspaner@gmail.com";
+    navigator.clipboard.writeText(text);
+  }
+  
+  
   
   window.addEventListener("scroll", reveal);
