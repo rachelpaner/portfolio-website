@@ -5,9 +5,9 @@ h1 {
 	font-family: 'Playfair Display';
 	color: #433C4A;
 	font-size: 4rem; 
-	text-align: center; 
+	text-align: center;
+	margin-top: 5rem; 
 	font-weight: 700;
-	margin-top: 20%;
 	margin-bottom:7%;
 	line-height:4rem;
 }
@@ -126,20 +126,6 @@ ol {
 	text-align: center;
 } 
 
-.left {
-	text-align: left;
-}
-
- .nav-right a {
-	color: #433C4A;
-}
-	  
-
-.nav-right a:hover {
-/* background-color: lightpink; */
-text-decoration-color:#E2508A;
- }
-
 .sketch img {
 	width:49.5%;
 	height:auto;
@@ -210,13 +196,11 @@ text-decoration-color:#E2508A;
  }
 
  .thank-you {
-	font-family: 'Playfair Display';
+	font-family: 'Raleway';
 	size: 1rem;
 	color: #433C4A;
-	margin-top:5%;
+	margin-bottom:4rem;
+	margin-top: 3rem;
 	opacity: 75%;
  }
  
-/* .reg-image{
-
-} */

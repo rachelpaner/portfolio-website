@@ -1,7 +1,12 @@
+
 .nav-link {
     font-family: 'Raleway';
-    font-size: 1.5rem;
-    color:  #4D4646 !important;   
+    font-size: 1.5rem; 
+    color: #4D4646 !important;
+}
+
+.navbar-item a.nav-link:hover { 
+    color: #E2508A !important;
 }
 
 .navbar-light .navbar-toggler {

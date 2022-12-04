@@ -1,8 +1,16 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: #FFF8FB;
    
 }
 
+a {
+    color:#433C4A !important;
+    text-decoration: none;
+}
 
 html,body{
     overflow-x: hidden;
@@ -12,6 +20,21 @@ button {
     border-radius: 30px !important; 
     font-family: 'Raleway';
     
+}
+
+.txt-center {
+    text-align: center;
+    /* padding-bottom: 2%; */
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.selected {
+    color: #E2508A !important;
 }
 
 .btn-lg {
@@ -43,7 +66,7 @@ h1 {
     font-family: 'Playfair Display';
     font-weight: 900;
     color:  #FFF8FB;
-    font-size: 11.75rem;;
+    font-size: 20vmin;
 }
 
 h2 {
@@ -197,8 +220,18 @@ h5 {
     /* padding-right: 5%; */
 }
 
+.dt-btn {
+    border-radius: 30px !important;
+    font-family: 'Raleway';
+}
 .arrow {
     padding-left: 3px;
+}
+
+.gd {
+    background-color: #faeef4;
+    margin-top: 15rem;
+    padding-top: 1rem;
 }
 
 #slideshow{
@@ -241,7 +274,7 @@ h5 {
     font-size: 1.75rem;
     color:#433C4A;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .connect {
@@ -275,7 +308,7 @@ h5 {
 }
 
 .dd {
-    padding-top: 3rem;
+    padding-top: 2rem;
     color:#4f4f54 !important;
 }
 
@@ -295,6 +328,10 @@ i:hover {
         padding-top: 10%;
    }
 
+   .gd {
+    margin-top: 8rem;
+   }
+
    .project-image-left, .project-image-right {
         float: none;
         display: block !important;
@@ -308,6 +345,7 @@ i:hover {
         padding:0%;
         margin-left: 15%;
         margin-right: 15%;
+        text-align: center;
     }
 
     .project-des-left {
@@ -316,15 +354,22 @@ i:hover {
         padding:0%;
         margin-left: 15%;
         margin-right: 15%;
+        text-align: center;
     }
+
+    /* .work-des {
+        text-align: left !important;
+    } */
 
     .work-title {
         padding-top: 10%;
         text-align: center;
     }
 
-    .btn-center {
-        margin-left: 10%;
-        margin-right: 10%;
+    .poster-graphic {
+        width: 70%;
     }
+
+
+   
 }

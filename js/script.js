@@ -14,11 +14,9 @@ function reveal() {
     }
   }
 
-  function copyEmail() {
-    let text = "rachelspaner@gmail.com";
-    navigator.clipboard.writeText(text);
-  }
-  
-  
-  
+function sendEmail() 
+{
+    window.location = "mailto:rachelspaner@gmail.com";
+}
+
   window.addEventListener("scroll", reveal);
