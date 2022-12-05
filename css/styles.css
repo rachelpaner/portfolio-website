@@ -309,7 +309,7 @@ h5 {
 
 .dd {
     padding-top: 2rem;
-    color:#4f4f54 !important;
+    color:#6d6872 !important;
 }
 
 i:hover {
@@ -368,6 +368,14 @@ i:hover {
 
     .poster-graphic {
         width: 70%;
+        margin-bottom: 4rem;;
+    }
+    
+    #slideshow{
+        padding-top: 6rem; 
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
     }
 
 

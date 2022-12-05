@@ -41,71 +41,14 @@
 .error-list{
     border: 0.5rem solid #7C294C;
     border-radius:2.5rem;
-    background:#f6d2ce;
+    background:#FAE5EF;
     overflow:hidden;
-    margin-bottom: 5%;
-}
-
-.left-feature{
-    display: flex;
-    flex-direction: row;
-	color: #4D4646;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    /* background-color: #f6d2ce; */
-  
-   
-}
-
-.feature-col {
-    margin-left: 20%;
-}
-
-.right-feature {
-    display: flex;
-    flex-direction: row;
-	color: #4D4646;
-    background-color:#FAE5EF;
+    margin-bottom: 3rem;;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
-.feature-des-left {
-    float: left;
-    padding-right: 30%;
-    padding-top: 8%;
-}
-
-.feature-des-right {
-    float: left;
-    /* padding-left: 20%; */
-    padding-right: 30%;
-    padding-top: 8%;
-}
-
-.left-gif {
-
-    margin-bottom: 5%;
-    margin-top: 5%;
-    margin-right: 25%; 
-    margin-left:12%;
-	border-radius:2.5rem;
-	height:31.25rem;
-	width: auto;
-}
-
-.right-gif {
-    margin-bottom: 5%;
-    margin-top: 5%;
-    margin-right: 25%; 
-    margin-left:12%;
-	border-radius:2.5rem;
-	height:31.25rem;
-	width: auto;
-}
-
-
-.gas-img, .log-img{
+.gas-img, .log-img {
 
     margin-left:10%;
     margin-right:10%;
@@ -117,39 +60,6 @@
     
 }
 
-.left-feature-info{
-    float: right;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    margin-right: 15%;
-}
-
-.right-feature-info{
-    float: left;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    margin-left: 15%;
-}
-    
-.feature-head {
-    font-family:'Playfair Display';
-    font-size: 2.25rem;
-    text-align:center;
-   
-}
-
-.feature-des{
-   font-family: 'Raleway';
-   color:#4D4646;
-   font-size:1.25rem;
-   padding-bottom: 5%;
-   text-align:left;
-}
-.custom-indent {
-    text-indent: -1.25rem; /* key property */
-    margin-left: 1.25rem; /* key property */   
-}
 .big-indent {
     text-indent: -2.25rem; /* key property */
     margin-left: 2.25rem; /* key property */   
@@ -160,31 +70,13 @@
 }
 
 #proto-link{
-    color:#b20a50 !important;
+    color:#7C294C !important;
 }
 
 @media (max-width: 1028px) {
-    .feature-col {
-        margin-left: 0%;
-    }    
-    .left-gif, .right-gif, .log-img, .gas-img {
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-
-    .feature-des-left, .feature-des-right {
-        padding-top: 4rem;
-        float: none;
-        display: block;
-        padding:0%;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-
-   
-
+   .persona img {
+    width: 100%;
+   }
 }
+
 

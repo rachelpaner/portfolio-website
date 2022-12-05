@@ -1,10 +1,72 @@
 
-
-
-
 .highlight {
     font-family: 'Raleway';
     font-size: 1.5rem; 
     color: #E2508A !important;
 
+}
+
+.about-me {
+    padding-left: 10%;
+}
+
+.about-header {
+    padding-bottom: 5%;
+}
+
+.about-blurb {
+    font-family: 'Playfair Display';
+    font-size: 2rem;
+    color: #6d6872;
+    font-weight: 300;
+    text-align: center;
+    /* font-style: italic; */
+    padding-top: 5%;
+}
+
+.heart-row {
+    margin-top: 10%;
+}
+
+.more-about-me {
+	color: #433C4A;
+	font-family: 'Playfair Display';
+	text-align: center;
+	font-size: 2.5em;
+	padding-bottom: 5%;
+   padding-right:10%;
+    padding-top: 5%;
+    /* padding-left: 5%; */
+}
+
+
+.more-about-me span:hover{
+	color:#7C294C !important; 
+	cursor: pointer;
+}
+
+.pink-heart {
+    padding-left: 3%;
+    width: 100%;
+}
+
+h4 {
+    font-size: 3em;
+}
+
+.playlist {
+    padding-bottom: 8%;
+    /* padding-top: 5%; */
+}
+
+.playlist-intro {
+    padding-top: 8%;
+}
+
+@media (max-width: 1028px) {
+    h4 {
+        text-align: center;
+        font-size: 3rem;
+    }
+   
 }
