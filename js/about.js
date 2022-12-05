@@ -17,7 +17,7 @@ var original = "../images/heart.png";
       var imgId = a.getAttribute('data-image-id');
       var imgSrc = images[imgId];
       heart.src = imgSrc;
-      heart.setAttribute("style", "width: 100%; height: auto");
+      heart.setAttribute("style", "width: 75%; height: auto;");
 
     } 
     arr[i].onmouseout = function (){
