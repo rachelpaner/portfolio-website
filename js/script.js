@@ -14,9 +14,8 @@ function reveal() {
     }
   }
 
-function sendEmail() 
-{
-    window.location = "mailto:rachelspaner@gmail.com";
+function sendEmail() {
+  window.location.href = "mailto:rachelspaner@gmail.com";
 }
 
   window.addEventListener("scroll", reveal);
