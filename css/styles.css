@@ -220,6 +220,10 @@ h5 {
     /* padding-right: 5%; */
 }
 
+.che-flower {
+    vertical-align: bottom;
+}
+
 .dt-btn {
     border-radius: 30px !important;
     font-family: 'Raleway';
