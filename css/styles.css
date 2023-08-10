@@ -72,9 +72,9 @@ h1 {
 h2 {
     font-family: 'Playfair Display';
     font-size: 3.75rem;
-    text-decoration: underline;
-    text-decoration-thickness: .2rem;
-    font-weight: 600;
+    /* text-decoration: underline;
+    text-decoration-thickness: .2rem; */
+    font-weight: 800;
     color: #E2508A; 
     text-align: center;
     margin-top: 2%;
@@ -147,9 +147,9 @@ h5 {
     height:auto;
 }
 
-.header {
+/* .header {
     font-style: italic;
-}
+} */
 
 #graphicDesign {
     padding-top: 2rem;
