@@ -156,6 +156,11 @@ ol {
 	
 }
 
+.wide-box {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
 .table-des {
 	font-family: 'Outfit';
 	font-size: 1.25rem;
