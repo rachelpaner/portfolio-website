@@ -1,6 +1,6 @@
 
 .highlight {
-    font-family: 'Raleway';
+    font-family: 'Outfit';
     font-size: 1.5rem; 
     color: #E2508A !important;
 
@@ -12,13 +12,14 @@
 
 .about-header {
     padding-bottom: 5%;
+    font-family: 'Playfair Display';
 }
 
 .about-blurb {
-    font-family: 'Raleway';
+    font-family: 'Outfit';
     font-size: 2rem;
     color: #433C4A;
-    font-weight: 300;
+    font-weight: 200;
     text-align: center;
     /* font-style: italic; */
     padding-top: 5%;

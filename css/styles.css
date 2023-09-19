@@ -3,9 +3,12 @@ html {
   }
 
 body {
-    background-color: #FFF8FB;
+    background-color: #fffcfb;
    
 }
+/* .ux-design {
+    margin-top: 12%;
+} */
 
 a {
     color:#433C4A !important;
@@ -18,9 +21,14 @@ html,body{
 
 button {
     border-radius: 30px !important; 
-    font-family: 'Raleway';
-    
+    font-family: 'Outfit';
+    outline: none !important;
 }
+
+b {
+    font-weight: 500;
+}
+
 
 .txt-center {
     text-align: center;
@@ -56,25 +64,26 @@ button {
  }
 
 p {
-    font-family: 'Raleway';
-    color: #433C4A;
-    size: 1.5rem;
+    font-family: 'Outfit';
+    color: #31292c;
+    font-weight: 300;
+    font-size: 1.2rem;
 
 
 }
 h1 {
     font-family: 'Playfair Display';
     font-weight: 900;
-    color:  #FFF8FB;
+    color:  #55464c;
     font-size: 20vmin;
 }
 
 h2 {
-    font-family: 'Playfair Display';
+    font-family: 'Outfit';
     font-size: 3.75rem;
     /* text-decoration: underline;
     text-decoration-thickness: .2rem; */
-    font-weight: 800;
+    font-weight: 600;
     color: #E2508A; 
     text-align: center;
     margin-top: 2%;
@@ -85,22 +94,34 @@ h2 {
 h3 {
     font-family: 'Playfair Display';
     font-weight: 500;
-    color:#FFF8FB;
+    color:#463a3e;
     font-size: 4rem;
 }
 
 h4 {
-    font-family: 'Playfair Display';
+    font-family: 'Outfit';
     font-weight: 600;
-    color:   #4D4646;
+    color:   #31292c;
     font-size: 3rem;
 }
 
 h5 {
-    font-family: 'Raleway';
+    font-family: 'Outfit';
     font-size: 1.5rem;
-    color:#FFF8FB; 
+    color:#31292c; 
+    font-weight: 400;
 }
+
+
+th {
+    font-family: "Outfit";
+}
+
+td{
+    font-family: "Outfit";
+}
+
+
 
 .category {
     background-color:#FAE5EF;
@@ -115,10 +136,12 @@ h5 {
 .greeting {
    text-align:center;
    filter:drop-shadow(.5rem .5rem 1rem  rgba(255, 236, 236, 0.4));
+   
 }
 
 .fade-blurb {
     padding-top: 3rem;
+    /* filter:drop-shadow(.2rem .2rem .25rem  rgba(107, 1, 45, 0.499)); */
 }
 .navbar {
     padding-top: 2rem;
@@ -132,9 +155,10 @@ h5 {
 }
 
 .nav-link {
-    font-family: 'Raleway';
+    font-family: 'Outfit';
     font-size: 1.5rem;
-    color:  #FFF8FB!important;   
+    font-weight: 300;
+    color:  #312a2e!important;   
 }
 
 .navbar-light .navbar-toggler {
@@ -189,7 +213,7 @@ h5 {
 }
 
 .preview-card {
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .image-holder {
@@ -204,7 +228,19 @@ h5 {
 }
 
 .work-title {
-    padding-bottom: 5%;
+   
+    padding-bottom: 3%;
+}
+.label {
+    background-color:transparent !important;
+    border-style: solid !important;
+    border-color:#E2508A;
+    padding-left: 2%;
+    color: #E2508A;
+    padding-right: 2%;
+    margin-right: 2%;
+    padding-bottom:1%;
+    margin-bottom: 3%;
 }
 
 .project-des-left {
@@ -226,14 +262,14 @@ h5 {
 
 .dt-btn {
     border-radius: 30px !important;
-    font-family: 'Raleway';
+    font-family: 'Outfit';
 }
 .arrow {
     padding-left: 3px;
 }
 
 .gd {
-    background-color: #faeef4;
+    background-color: #fff5f7;
     margin-top: 15rem;
     padding-top: 1rem;
 }
@@ -256,7 +292,7 @@ h5 {
 
 .carousel-caption {
     color:#433C4A !important;
-    font-family: "Raleway" !important;
+    font-family: "Outfit" !important;
 }
 
 .carousel-control-prev-icon {
@@ -270,7 +306,7 @@ h5 {
 #footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: #FAE5EF;
+    /* background-color: #FAE5EF; */
 }
 
 .ending {
@@ -282,7 +318,7 @@ h5 {
 }
 
 .connect {
-    font-family: 'Raleway';
+    font-family: 'Outfit';
     font-size: 1.25rem;
     text-align: center;
     color:#433C4A;
@@ -381,7 +417,7 @@ i:hover {
         padding-right: 15%;
         text-align: center;
     }
-
+ 
 
    
 }

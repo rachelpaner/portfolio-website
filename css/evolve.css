@@ -1,3 +1,43 @@
+
+#footer {
+    background:#e9f4fe;
+}
+
+.project-des {
+    background-image: linear-gradient(to right bottom, #ecf6ff, #e6f3ff, #cee7ff, #beddfa, #9dcefd);
+  }
+  .progress-bar {
+      background: #3A92E2;
+  }
+  .callout {
+      background: #AFD9FF;
+  }
+  .findings {
+      border-left:  .25rem solid   #3A92E2;
+  }
+  
+  .subsection {
+      color:  #433C4A;
+  }
+  
+  .right-feature {
+    background:  #e8f4ff;
+  }
+  .highlight-blue {
+      border-radius: 1em 0 1em 0;
+      background-image: linear-gradient(
+        -100deg,
+        rgb(223, 190, 249),
+        rgb(240, 222, 255) 95%
+      );
+    }
+  
+  
+
+
+
+
+
 #evolveMap {
     padding-bottom: 1rem;
     width:80%;
@@ -9,7 +49,7 @@
 }
 
 .small-header {
-    color: #7C294C;
+    color: #0d2e4d;
     font-size: 1rem;
     text-align:center
 }
@@ -31,17 +71,18 @@
 }
 
 #error {
-    font-family:'Raleway';
-    font-weight: 600;
+    font-family:'Outfit';
+    font-weight: 500;
     font-size: 2rem;
-    color:#7C294C !important;
+    color:#13518a !important;
+
 
 }
 
 .error-list{
-    border: 0.5rem solid #7C294C;
-    border-radius:2.5rem;
-    background:#FAE5EF;
+    border: 0.5rem solid #13518a ;
+    border-radius:1.5rem;
+    background:#f2f6fa ;
     overflow:hidden;
     margin-bottom: 3rem;;
     padding-top: 2rem;
@@ -61,8 +102,8 @@
 }
 
 .big-indent {
-    text-indent: -2.25rem; /* key property */
-    margin-left: 2.25rem; /* key property */   
+    /* text-indent: -2.25rem; /* key property */
+    margin-left: 2.25rem; /* key property */    */
 }
 
 .image-space {
@@ -70,7 +111,7 @@
 }
 
 #proto-link{
-    color:#7C294C !important;
+    color: #3A92E2!important;
 }
 
 @media (max-width: 1028px) {

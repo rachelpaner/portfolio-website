@@ -1,0 +1,78 @@
+
+#footer {
+  background-color:  #f8f0ff;
+}
+
+#days {
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.project-des {
+  background-image: linear-gradient(to right bottom, #f5effb, #ebe3fa, #e0d7fa, #d2cbfa, #c1c1fb);
+}
+.progress-bar {
+    background:#9d70ca ;
+}
+.callout {
+	background: #f5effb;
+}
+.findings {
+    border-left:  .25rem solid  #9d70ca;
+}
+
+.subsection {
+    color:  #433C4A;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 1em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+.hrow {
+   background:    #f5effb; 
+}
+.tbody {
+  background: white; 
+}
+
+.right-feature {
+  background:  #f5effb;
+}
+.highlight-purple {
+    border-radius: 1em 0 1em 0;
+    background-image: linear-gradient(
+      -100deg,
+      rgb(223, 190, 249),
+      rgb(240, 222, 255) 95%
+    );
+  }
+
+  section {
+	display: flex;
+}
+
+
+
+mark {
+    -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+            animation: 1.5s highlight 1.5s 1 normal forwards;
+    background-color: none;
+    background: linear-gradient(90deg, #7efff5 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+  
+  @-webkit-keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+  
+  @keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }

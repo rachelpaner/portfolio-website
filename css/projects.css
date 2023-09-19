@@ -3,7 +3,7 @@
 h1 {
 	/* title of the page */
 	font-family: 'Playfair Display';
-	color: #433C4A;
+	color: #31292c;
 	font-size: 4rem; 
 	text-align: center;
 	margin-top: 5rem; 
@@ -15,12 +15,13 @@ h1 {
 h3 {
 	/* section titles */
 	font-family: 'Playfair Display';
-	color: #433C4A;
-	font-size: 2.5rem; 
+	color: #31292c;
+	font-size: 2.25rem; 
 	font-weight: 500;
 	margin: 0;
 	line-height: 4rem;
 	padding-top: 2%;
+	padding-bottom: 1%;
 }
 
 ol {
@@ -31,9 +32,24 @@ ol {
 	background-image: linear-gradient(to right top, #f08ab5, #e58ec9, #d594db, #bf9bea, #a4a3f6, #9aa5f9, #90a8fc, #84aafe, #8ea7fd, #97a4fc, #a1a1fa, #aa9ef7);
 } */
 
+.drop-shadow {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.v-center {
+	display: flex;
+	align-items: center;
+ }
+ 
+
+.parent {
+	display: flex;
+	  margin-right: auto;
+    margin-left: auto;
+	justify-content: center;
+	
+}
 /* Style the header: fixed position (always stay at the top) */
 .progress-bar {
-    background: #E2508A ;
     height: .5rem;
     width: 0%;
     position: fixed;
@@ -44,14 +60,37 @@ ol {
 .subsection {
 	/* subsections */
 	font-family: 'Playfair Display';
-	color: #753258;
-	font-size: 2.25rem; 
-	font-weight: 6.25rem;
+	font-size: 1.75rem; 
+	font-weight: 500;
 	line-height:4rem;
 	padding-top: 2%;
 	
 }
 
+.sm-pad {
+	padding-bottom: 5%;
+}
+
+.reg-image {
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.cap-image {
+	padding-top: 2%;
+	/* padding-bottom: 2%; */
+}
+
+.sm-image {
+	padding-top: 2%;
+	padding-bottom: 5%;
+	width: 80%;
+	height: auto;
+}
+
+.small-italics {
+	font-size: 2rem;
+}
 
 .big-image{
 	display: flex; 
@@ -61,14 +100,16 @@ ol {
 
 .big-image img{
 	align-self: center;
-	width: 100%; 
+	width: 80%; 
 }
 .columns {
 	margin-bottom:1%;
+	padding-left:10%;
+	
 }
 .column {
 	float: left;
-	width: 33.33%;
+	width: 50%;
 	padding-top: 2%;
 	padding-bottom: 5%;
   }
@@ -88,43 +129,52 @@ ol {
   }
 .img-des {
 	color: #575252;
+	font-family: "Outfit";
 	font-size: 1rem; 
 	position: relative;
-	padding-bottom: 2%;
+	padding-bottom: 4%;
+	padding-top:2%;
 	line-height: 1.5rem;
 }
 .project-des {
-	border: 0.3rem solid #E2508A;
+	/* border: 0.3rem solid #E2508A; */
 	border-radius: .75rem;
 	/* background: rgb(249, 204, 211); */
-    background-image: linear-gradient(to right top, #d8e7ff, #dce2fe, #e3ddfb, #ead7f6, #f2d1ee, #f3cdeb, #f4c8e8, #f5c4e5, #eec0eb, #e3bef2, #d5bcf8, #c4bbff);
 	margin-top:5%;
 	margin-bottom: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
-#des-header{
+.des-header{
 	font-size:1.5rem;
 	font-weight: 500;
-	text-decoration:underline;
-	text-decoration-color: #E2508A;
+	font-family: 'Playfair Display';
+	padding-right: 2%;
+	/* text-decoration:underline;
+	text-decoration-color: #E2508A; */
 	
 }
 
 .table-des {
-	font-family: 'Raleway';
+	font-family: 'Outfit';
 	font-size: 1.25rem;
+	margin-left: 20%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 .team-info{
 	font-size: 1.25rem;
 	font-style:italic;
-	color:#E2508A;
+	color: #575252;
+	
 }
 
 
-#center {  
+/* #center {  
 	text-align: center;
-} 
+}  */
 
 .sketch img {
 	width:49.5%;
@@ -140,30 +190,60 @@ ol {
 	margin-right:11%;
 }
 
+.callout {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-size: 2.5rem;
+	font-family: "Playfair Display";
+
+}
+
 .findings {
-	border:  1rem dotted #E2508A;
 	outline-offset: 0.5rem;
 	margin-bottom: 3%;
 	margin-top: 2%;
 	
 }
-.insight {
+.list-insight {
 	padding-bottom:3%;
 	padding-left:3%;
 	padding-right: 3%;
 	font-size: 1.75rem;
-	font-family: 'Raleway';
+	font-family: 'Outfit';
 	color: #433C4A;
 	font-weight:300;
 }
 
-.intro-problem {
+.list-reg {
+	font-family: Outfit;
 	font-size: 1.25rem;
-	color:#433C4A;
+	font-weight: 300;
+	padding-bottom: 2%;
+}
+
+.insight {
+	padding-top:3%;
+	padding-bottom:2%;
+	padding-right: 3%;
+	font-size: 1.75rem;
+	font-family: 'Outfit';
+	color: #31292c;
+	font-weight:300;
+}
+.insight-des {
+	padding-top: 2%;
+}
+
+
+.intro-problem {
+	font-size: 1.5rem;
+	color:#31292c;
 	font-weight: 300;
 	padding-top: 2%;
 	margin-bottom: 3%;
-	font-family: 'Raleway';
+	font-family: 'Outfit';
 }
 
 #problem-statement {
@@ -172,12 +252,15 @@ ol {
 	padding-right: 3%;
 	padding-top: 3%;
 	font-size: 3.5vmin;
-	font-family: 'Raleway';
-	color: #433C4A;
+	font-family: 'Outfit';
+	color: #31292c;
 	font-weight: 400;
 	line-height: 1.5;
 	
 } 
+.middle {
+	text-align: center;
+}
 
 #first {
 	padding-top:3%;
@@ -186,11 +269,11 @@ ol {
 	font-family: 'Playfair Display';
 	font-weight:100;
 	font-size: 1.875rem;
-	color: #433C4A;
+	color: #31292c;
 }
 .bold {
-	font-weight: 600;
-	font-family: Raleway;
+	font-weight: 500;
+	font-family: Outfit;
 }
 
 
@@ -199,9 +282,9 @@ ol {
  }
 
  .thank-you {
-	font-family: 'Raleway';
+	font-family: 'Outfit';
 	size: 1rem;
-	color: #433C4A;
+	color: #31292c;
 	margin-bottom:4rem;
 	margin-top: 3rem;
 	opacity: 75%;
@@ -224,16 +307,17 @@ ol {
 }
     
 .feature-head {
-    font-family:'Playfair Display';
+    font-family:'Outfit';
     font-size: 2.25rem;
     text-align:center;
    
 }
 
 .feature-des{
-   font-family: 'Raleway';
-   color:#433C4A;
+   font-family: 'Outfit';
+   color:#31292c;
    font-size:1.25rem;
+   font-weight: 300;
    padding-bottom: 5%;
    text-align:left;
 }
@@ -245,7 +329,7 @@ ol {
 .left-feature{
     display: flex;
     flex-direction: row;
-	color: #433C4A;
+	color: #31292c;
     padding-top: 2rem;
     padding-bottom: 2rem;
     /* background-color: #f6d2ce; */
@@ -260,8 +344,7 @@ ol {
 .right-feature {
     display: flex;
     flex-direction: row;
-	color: #433C4A;
-    background-color:#FAE5EF;
+	color: #31292c;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -277,6 +360,10 @@ ol {
     /* padding-left: 20%; */
     padding-right: 30%;
     padding-top: 8%;
+}
+
+.gif {
+	border-radius:3.5rem;
 }
 
 .left-gif {
@@ -299,6 +386,14 @@ ol {
 	height:31.25rem;
 	width: auto;
 }
+
+.pcol {
+	border:#31292c;
+	border-style: solid;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-radius: .75rem;
+}
  
  @media (max-width: 1028px) {
     .feature-col {
@@ -310,6 +405,10 @@ ol {
         margin-left: auto;
         margin-right: auto;
     }
+
+	.callout {
+		font-size: 1.5rem;
+	}
     
 
     .feature-des-left, .feature-des-right {

@@ -1,0 +1,392 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: #FFF8FB;
+   
+}
+/* .ux-design {
+    margin-top: 12%;
+} */
+
+a {
+    color:#433C4A !important;
+    text-decoration: none;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+button {
+    border-radius: 30px !important; 
+    font-family: 'Raleway';
+    
+}
+
+.txt-center {
+    text-align: center;
+    /* padding-bottom: 2%; */
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.selected {
+    color: #E2508A !important;
+}
+
+.btn-lg {
+    color: white!important;
+    background-color: #E2508A;
+    border-color:  #E2508A!important;
+    border-style: solid;
+    
+}
+.btn-lg:hover{
+    color:  #433C4A !important;
+    background-color:#f9b9cd;
+    
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+p {
+    font-family: 'Raleway';
+    color: #433C4A;
+    font-size: 1.1rem;
+
+
+}
+h1 {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    color:  #FFF8FB;
+    font-size: 20vmin;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-size: 3.75rem;
+    /* text-decoration: underline;
+    text-decoration-thickness: .2rem; */
+    font-weight: 800;
+    color: #E2508A; 
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+
+h3 {
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    color:#FFF8FB;
+    font-size: 4rem;
+}
+
+h4 {
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    color:   #4D4646;
+    font-size: 3rem;
+}
+
+h5 {
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    color:#FFF8FB; 
+}
+
+.category {
+    background-color:#FAE5EF;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greeting {
+   text-align:center;
+   filter:drop-shadow(.5rem .5rem 1rem  rgba(255, 236, 236, 0.4));
+   
+}
+
+.fade-blurb {
+    padding-top: 3rem;
+    /* filter:drop-shadow(.2rem .2rem .25rem  rgba(107, 1, 45, 0.499)); */
+}
+.navbar {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    color:  #FFF8FB!important;   
+}
+
+.navbar-light .navbar-toggler {
+    color: #FFF8FB !important;
+    border-color:  #FFF5F9 !important;
+}
+
+#navbarLogo {
+    width: 6rem;
+    height:auto;
+}
+
+/* .header {
+    font-style: italic;
+} */
+
+#graphicDesign {
+    padding-top: 2rem;
+}
+
+#UX {
+    padding-top: 2rem;
+}
+
+.splash {
+    height: 100vh;
+	background-color: black;
+	width: 100%;
+    background-position: center;
+    /* min-height: 60rem;
+    max-height:67.5rem; */
+    background-image:url('../images/animated-bg.gif') ;
+    background-size: cover;
+	
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+.project-image-left {
+    width: 70%;
+    float: right;
+    /* padding-right: 5%; */
+}
+
+.preview-card {
+    margin-top: 5%;
+}
+
+.image-holder {
+    cursor: pointer;
+}
+
+.project-des-right {
+    float: right;
+    padding-left: 15%;
+    padding-right: 30%;
+    padding-top: 12%;
+}
+
+.work-title {
+    padding-bottom: 5%;
+}
+
+.project-des-left {
+    float: left;
+    padding-right: 20%;
+    padding-left: 30%;
+    padding-top: 12%;
+}
+
+.project-image-right {
+    width: 70%;
+    float: left;
+    /* padding-right: 5%; */
+}
+
+.che-flower {
+    vertical-align: bottom;
+}
+
+.dt-btn {
+    border-radius: 30px !important;
+    font-family: 'Raleway';
+}
+.arrow {
+    padding-left: 3px;
+}
+
+.gd {
+    background-color: #faeef4;
+    margin-top: 15rem;
+    padding-top: 1rem;
+}
+
+#slideshow{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.graphic {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 8rem;
+}
+
+.poster-graphic {
+    width: 40%;
+    margin-bottom: 8rem;
+}
+
+.carousel-caption {
+    color:#433C4A !important;
+    font-family: "Raleway" !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%433C4A' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+   
+.carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%433C4A' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #FAE5EF;
+}
+
+.ending {
+    font-family: 'Playfair Display';
+    font-size: 1.75rem;
+    color:#433C4A;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.connect {
+    font-family: 'Raleway';
+    font-size: 1.25rem;
+    text-align: center;
+    color:#433C4A;
+}
+
+.curly-arrow-left, .curly-arrow-right {
+    width: 1.25rem;
+    height: auto;
+
+}
+
+.curly-arrow-left {
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.socials {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.fa-github {
+    padding-right: 3rem;
+}
+.fa-linkedin{
+    padding-left: 3rem;
+}
+
+.dd {
+    padding-top: 2rem;
+    color:#433C4A !important;
+}
+
+i:hover {
+    color: #E2508A;
+    cursor: pointer;
+}
+@media (max-width: 1028px) {
+    h1 {
+        font-size: 7rem;
+    }
+   h2 {
+        font-size: 2.5rem;
+   }
+
+   .header {
+        padding-top: 10%;
+   }
+
+   .gd {
+    margin-top: 8rem;
+   }
+
+   .project-image-left, .project-image-right {
+        float: none;
+        display: block !important;
+        PADDING-TOP: 10%;
+        margin-left: auto;
+        margin-right: auto;
+   }
+   .project-des-right {
+        float: none;
+        display: block;
+        padding:0%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: center;
+    }
+
+    .project-des-left {
+        float: none;
+        display: block;
+        padding:0%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: center;
+    }
+
+    /* .work-des {
+        text-align: left !important;
+    } */
+
+    /* .work-title {
+        padding-top: 10%;
+        text-align: center;
+    } */
+
+    .poster-graphic {
+        width: 70%;
+        margin-bottom: 4rem;;
+    }
+    
+    #slideshow{
+        padding-top: 6rem; 
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+    }
+ 
+
+   
+}
