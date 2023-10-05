@@ -1,3 +1,77 @@
+#footer {
+    background: #ffeff6;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.accordion {
+  background-color: transparent;
+  /* color: #444; */
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border-width: 0 0 .1rem 0;
+  outline: none;
+  transition: 0.4s;
+  border-radius: 0 !important;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  color: #E2508A;
+}
+
+.l-head {
+    font-size: 1.75rem;
+    font-family: "Playfair Display";
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  /* padding: 0 18px; */
+padding-top: 2%; 
+  display: none;
+  overflow: hidden;
+}
+
+.collapsible {
+    background-color: transparent;
+    /* color: #444; */
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border-bottom: solid;
+    text-align: left;
+    outline: none;
+    font-family: "Playfair Display";
+    font-size: 2rem;
+    margin-top: 5%;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .collapsible:hover {
+    background-color: #ccc;
+  }
+
+  .activity {
+    font-size: 1.75rem;
+    font-family: "Playfair Display";
+    /* text-align: center; */
+
+  }
+  
+  .activity-img {
+    width: 70%;
+   filter: drop-shadow(-8px 8px 8px #826868);
+  }
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding-top: 5%;;
+    display: none;
+    overflow: hidden;
+    /* background-color: #f1f1f1; */
+  }
+
 
 .highlight {
     font-family: 'Outfit';
@@ -13,6 +87,14 @@
 .about-header {
     padding-bottom: 5%;
     font-family: 'Playfair Display';
+}
+
+.about-sm-header {
+    font-size: 2.25rem;
+    font-weight: 500;
+    padding-left: 18px;
+    font-family: 'Playfair Display';
+    padding-top:5%;
 }
 
 .about-blurb {
@@ -32,8 +114,8 @@
 .more-about-me {
 	color: #433C4A;
 	font-family: 'Playfair Display';
-	text-align: center;
-	font-size: 2.5em;
+	text-align: left;
+	font-size: 2.5rem;
 	padding-bottom: 5%;
    padding-right:10%;
     padding-top: 5%;
@@ -47,7 +129,7 @@
 }
 
 .pink-heart {
-    padding-left: 3%;
+    /* padding-left; */
 }
 
 #empty-heart {
