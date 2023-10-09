@@ -87,6 +87,11 @@ ol {
 	width: 80%;
 	height: auto;
 }
+.x-sm-image {
+	padding-top: 2%;
+	width: 50%;
+	height: auto;
+}
 
 .small-italics {
 	font-size: 2rem;
@@ -424,6 +429,10 @@ ol {
         margin-left: 15%;
         margin-right: 15%;
     }
+
+	.x-sm-image {
+		width: 100%;
+	}
 
 }
 
