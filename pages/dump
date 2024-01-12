@@ -1,0 +1,14 @@
+<h3>User Research</h3>
+			<ol type="I">
+				<li class="subsection">Personas</li>
+				<p> The eclectic nature of the Che Café attracts visitors from all walks of life, so we wanted to capture the identites within the Che community. We interviewed 11  Che Café  visitors across a selection of events and times, from daytime study hours to nighttime indie concerts, and used our findings to build 3 personas that capture the frequent users of the space.
+				<div class="persona">  
+						<img class="center img-fluid" src="../images/che/Persona_1.png" alt="The show volunteer">
+				</div>
+
+                <div class="persona">  
+                    <img class="center img-fluid" src="../images/che/Persona_2.png" alt="The study volunteer">
+                </div>
+                <div class="persona">  
+                    <img class="center img-fluid" src="../images/che/Persona_3.png" alt="The performer">
+                </div>
